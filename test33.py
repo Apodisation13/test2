@@ -13,3 +13,9 @@ def summ(a: int, b = 5):
     return c
 
 print(summ(4))
+
+def minus(a: int, b: int):
+    c = a - b
+    return c
+
+print(minus(7, 5))
